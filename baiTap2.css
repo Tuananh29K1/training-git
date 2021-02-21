@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f7fa;
+  padding: 40px;
+}
+#container {
+  margin: auto;
+  background-color: #ffffff;
+  color: #464646;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  text-align: left;
+}
+.tieuDe {
+  margin-bottom: 15px;
+  margin-block-end: 15px;
+  font-size: 25.6px;
+  font-weight: 500;
+  line-height: 44.8px;
+}
+#time {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+#function {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.category {
+  background-color: #e5e5e5;
+  color: grey;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  margin-right: 0.4rem;
+  cursor: pointer; /* đây là hiệu ứng con trỏ */
+}
+.bagde {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap; /* làm cho chữ không bị xuống dòng khi thu nhỏ phóng to trình duyệt */
+  vertical-align: baseline;
+}
+#text {
+  border-top: 1px solid lightgrey;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.groupImage {
+  text-align: center;
+  display: block;
+  margin-top: 8px;
+}
+
+.image img {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  object-fit: cover;
+  margin: auto;
+  height: auto;
+}
+.onlyText {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 8px;
+  line-height: 28px;
+}
+h4 {
+  font-size: 19.2px;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+.note {
+  text-align: center;
+  font-size: 14.4px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+#notecomment {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  color: #f65623;
+}
+#login {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  color: #f65623;
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+#postComment {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+#comment {
+  display: flex;
+  flex-direction: row;
+}
+#commentAvatar img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-right: 16px;
+}
+#commentContent {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  width: 100%;
+  min-height: 4em;
+  padding: 0.65em 1em;
+  margin-bottom: 0.3em;
+  margin-top: 0;
+}
+#share {
+  border-top: 1px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+#quality {
+  font-size: 20px;
+  font-weight: 500;
+}
+#logoLike img {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.logoLike {
+  display: inline;
+}
+#logoShare img {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
